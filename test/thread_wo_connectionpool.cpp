@@ -4,6 +4,7 @@
 
 // wsl2 ubuntu: g++ -g -o thread_wo_connectionpool thread_wo_connectionpool.cpp -I../include ../src/*.cpp -lmysqlclient
 // vmware centos: g++ -g -o thread_wo_connectionpool thread_wo_connectionpool.cpp -I../include ../src/*.cpp  -L/usr/lib64/mysql -lmysqlclient -lpthread
+// aliyun: g++ -g -o thread_wo_connectionpool thread_wo_connectionpool.cpp -std=c++11 -I../include ../src/*.cpp  -L/usr/lib64/mysql -lmysqlclient -lpthread
 
 int main() {
 
